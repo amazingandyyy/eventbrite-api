@@ -1,4 +1,4 @@
-var eventbrite = require('./index.js')('R5ZWGGH5QB65L3MAW62S');
+var eventbrite = require('./index.js')('token-token-token');
 
 var result = eventbrite.search({
   q: 'Hackathon',
