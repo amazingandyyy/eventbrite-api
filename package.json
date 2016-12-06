@@ -1,6 +1,6 @@
 {
   "name": "search-eventbrite",
-  "version": "0.0.9",
+  "version": "1.0.2",
   "description": "A developer-friendly Eventbrite API package for searching events.",
   "main": "index.js",
   "scripts": {

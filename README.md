@@ -9,9 +9,9 @@ $ npm install --save search-eventbrite
 
 ##short sample
 ```javascript
-var eventbrite = require('search-eventbrite')('your-eventbrite-key-here');
+var event = require('search-eventbrite')('your-eventbrite-key-here');
 
-eventbrite.search({
+event.getAll({
   q: 'Hackathon',
   'location.address':'San Francisco'
 }, function(err, res, events){
@@ -36,7 +36,7 @@ var eventbrite_key = 'paste_your_eventbrite_key_here'
 var eventbrite = require('search-eventbrite')(eventbrite_key);
 
 // call search to get events
-eventbrite.search({
+event.getAll({
   q: 'Hackathon',
   'location.address':'San Francisco',
   sort_by: 'date'
