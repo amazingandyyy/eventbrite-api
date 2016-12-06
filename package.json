@@ -1,0 +1,31 @@
+{
+  "name": "eventbrite-api",
+  "version": "0.0.2",
+  "description": "A developer friendly Eventbrite API package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazingandyyy/eventbrite-api.git"
+  },
+  "keywords": [
+    "eventbrite"
+  ],
+  "author": "amazingandyyy <amazingandyyy@gmail.com> (http://amazingandyyy.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amazingandyyy/eventbrite-api/issues"
+  },
+  "homepage": "https://github.com/amazingandyyy/eventbrite-api#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-nodemon": "^2.2.1"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
