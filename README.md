@@ -1,6 +1,7 @@
 # search-eventbrite
+## An developer-friendly API for searching for events on [Eventbrite](https://www.eventbrite.com/)
 
-This is private repo of amazingandyyy-server served for [amazingandyyy](https://github.com/amazingandyyy). Andy used this for most of his Hackathons.
+![Eventbrite](https://assets-cf.themuse.com/uploaded/companies/402/small_logo.png?v=848c27c7c48a96e3b25a23f23158b349c01869a57a4fa12cf78a5a36e368263f)
 
 ## intallation
 
@@ -24,8 +25,9 @@ event.getAll({
 })
 ```
 
-### events sample data (up to 50 events totally)
-#### return a beautiful json of Hackathon events
+### sample response data (up to 50 events totally)
+⋅⋅⋅ The API returns a beautiful JSON of events
+
 ```javascript
 [ { name: '#WomenHack - The All-Women Hackathon San Francisco',
     id: '27670276542',
@@ -46,8 +48,8 @@ event.getAll({
 
 ### Auther
 [Amazingandyyy](amazingandyyy.github.io)
-> Feel free to follow me on [GitHub](https://github.com/amazingandyyy) and [LiveCoding](https://www.livecoding.tv/amazingandyyy/)
-> Want to know me more? Visit my personal [page](http://amazingandyyy.github.io/)
+* Feel free to follow me on _[GitHub](https://github.com/amazingandyyy)_ and _[LiveCoding](https://www.livecoding.tv/amazingandyyy/)_
+* Want to know me more? Visit my _[page](http://amazingandyyy.github.io/)_
 
 ### License
 MIT
