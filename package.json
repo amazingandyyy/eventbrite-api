@@ -1,7 +1,7 @@
 {
-  "name": "eventbrite-api",
+  "name": "search-eventbrite",
   "version": "0.0.4",
-  "description": "A developer friendly Eventbrite API package.",
+  "description": "A developer-friendly Eventbrite API package for searching events.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
