@@ -1,6 +1,5 @@
 var eventbrite = require('./index.js')('R5ZWGGH5QB65L3MAW62S');
 
-
 var result = eventbrite.search({
   q: 'Bot',
   'location.address':'San Francisco',
