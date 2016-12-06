@@ -11,9 +11,10 @@ This is private repo of amazingandyyy-server served for [amazingandyyy](https://
 
 ## install and usage with sample code
 ```javascript
-var eventbrite_key = '<your-eventbrite-key>'
+var eventbrite_key = 'paste-your-eventbrite-key-here'
 var eventbrite = require('search-eventbrite')(eventbrite_key);
 
+// call search to get events
 eventbrite.search({
   q: 'Hackathon',
   'location.address':'San Francisco',
