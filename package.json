@@ -1,6 +1,6 @@
 {
   "name": "eventbrite-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A developer friendly Eventbrite API package.",
   "main": "index.js",
   "scripts": {
