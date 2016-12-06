@@ -1,5 +1,5 @@
 # search-eventbrite
-## An developer-friendly API for searching for events on [Eventbrite](https://www.eventbrite.com/)
+An developer-friendly API for searching for events on [Eventbrite](https://www.eventbrite.com/)
 
 ![Eventbrite](https://assets-cf.themuse.com/uploaded/companies/402/small_logo.png?v=848c27c7c48a96e3b25a23f23158b349c01869a57a4fa12cf78a5a36e368263f)
 
@@ -48,6 +48,7 @@ event.getAll({
 
 ### Auther
 [Amazingandyyy](amazingandyyy.github.io)
+![Amazingandyyy](http://i.imgur.com/4oQCR2R.png)
 * Feel free to follow me on _[GitHub](https://github.com/amazingandyyy)_ and _[LiveCoding](https://www.livecoding.tv/amazingandyyy/)_
 * Want to know me more? Visit my _[page](http://amazingandyyy.github.io/)_
 
