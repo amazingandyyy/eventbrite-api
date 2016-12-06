@@ -32,7 +32,7 @@ eventbrite.search({
 
 ## usage (with sample code)
 ```javascript
-var eventbrite_key = 'paste-your-eventbrite-key-here'
+var eventbrite_key = 'paste_your_eventbrite_key_here'
 var eventbrite = require('search-eventbrite')(eventbrite_key);
 
 // call search to get events
