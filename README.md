@@ -23,9 +23,11 @@ eventbrite.search({
 
 ##preparation
 ### 1. Create your Eventbrite app [here](https://www.eventbrite.com/myaccount/apps/new/).
+-> link: https://www.eventbrite.com/myaccount/apps/new/
 ![Create Eventbrite App][create_eventbrite_app]
 
 ### 2. Copy your Eventbrite key [here](https://www.eventbrite.com/myaccount/apps/).
+-> link: https://www.eventbrite.com/myaccount/apps/
 ![Get Eventbrite Key][get_eventbrite_key]
 
 ## usage (with sample code)
