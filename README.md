@@ -2,14 +2,33 @@
 
 This is private repo of amazingandyyy-server served for [amazingandyyy](https://github.com/amazingandyyy). Andy used this for most of his Hackathons.
 
-##prepare
+##intallation
+```javascript
+$ npm install --save search-eventbrite
+```
+
+##short sample
+```javascript
+var eventbrite = require('search-eventbrite')('your-eventbrite-key-here');
+
+eventbrite.search({
+  q: 'Hackathon',
+  'location.address':'San Francisco'
+}, function(err, res, events){
+    if(err) return console.log('err: ', err)
+    console.log('events: ', events)
+  }
+})
+```
+
+##preparation
 ### 1. Create your Eventbrite app [here](https://www.eventbrite.com/myaccount/apps/new/).
 ![Create Eventbrite App][create_eventbrite_app]
 
 ### 2. Copy your Eventbrite key [here](https://www.eventbrite.com/myaccount/apps/).
 ![Get Eventbrite Key][get_eventbrite_key]
 
-## install and usage with sample code
+## usage (with sample code)
 ```javascript
 var eventbrite_key = 'paste-your-eventbrite-key-here'
 var eventbrite = require('search-eventbrite')(eventbrite_key);
