@@ -3,13 +3,13 @@ An developer-friendly API for searching for events on [Eventbrite](https://www.e
 
 ![Eventbrite](https://assets-cf.themuse.com/uploaded/companies/402/small_logo.png?v=848c27c7c48a96e3b25a23f23158b349c01869a57a4fa12cf78a5a36e368263f)
 
-## intallation
+# intallation
 
 ```javascript
 $ npm install --save search-eventbrite
 ```
 
-## short sample
+# short sample
 
 ```javascript
 var event = require('search-eventbrite');
@@ -25,7 +25,7 @@ event.getAll({
 })
 ```
 
-### sample response data (up to 50 events totally)
+# sample response data (up to 50 events totally)
 ⋅⋅⋅ The API returns a beautiful JSON of events
 
 ```javascript
@@ -46,11 +46,11 @@ event.getAll({
       thumbnail: 'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F26151074%2F57935709853%2F1%2Foriginal.jpg?h=200&w=450▭=150%2C306%2C754%2C377&s=365fee942e396a635373420bf2b4a09d' } ]
 ```
 
-### Auther
+# Auther
 [Amazingandyyy](amazingandyyy.github.io)
 ![Amazingandyyy](http://i.imgur.com/4oQCR2R.png)
 * Feel free to follow me on _[GitHub](https://github.com/amazingandyyy)_ and _[LiveCoding](https://www.livecoding.tv/amazingandyyy/)_
 * Want to know me more? Visit my _[page](http://amazingandyyy.github.io/)_
 
-### License
+# License
 MIT
