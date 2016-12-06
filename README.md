@@ -3,12 +3,11 @@
 This is private repo of amazingandyyy-server served for [amazingandyyy](https://github.com/amazingandyyy). Andy used this for most of his Hackathons.
 
 ##prepare
-### 1. Create your Eventbrite app.
+### 1. Create your Eventbrite app [here](https://www.eventbrite.com/myaccount/apps/new/).
 ![Create Eventbrite App][create_eventbrite_app]
-Visit [Eventbrite Request a new Key](https://www.eventbrite.com/myaccount/apps/new/) to create an Eventbrite app
 
-### 2. Copy your Eventbrite key.
-Vist [Eventbrite App Management](https://www.eventbrite.com/myaccount/apps/) and copy your Eventbrite unique key from the app console
+### 2. Copy your Eventbrite key [here](https://www.eventbrite.com/myaccount/apps/).
+![Get Eventbrite Key][get_eventbrite_key]
 
 ## install and usage with sample code
 ```javascript
@@ -57,3 +56,4 @@ eventbrite.search({
 
 
 [create_eventbrite_app]: http://i.imgur.com/WGn2hir.png "Create Eventbrite App"
+[get_eventbrite_key]: http://i.imgur.com/oRtmL8f.png "Get Eventbrite Key"
