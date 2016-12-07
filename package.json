@@ -1,6 +1,6 @@
 {
   "name": "search-eventbrite",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A developer-friendly Eventbrite API package for searching events.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "gulp-nodemon": "^2.2.1"
   },
   "dependencies": {
+    "querystring": "^0.2.0",
     "request": "^2.79.0"
   }
 }
