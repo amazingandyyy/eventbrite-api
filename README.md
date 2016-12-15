@@ -57,3 +57,6 @@ event.getAll({
 ### License
 
 [MIT](https://github.com/amazingandyyy/eventbrite-api/blob/master/LICENSE)
+
+#### Todo
+- disable and hide public token, ask user to give token and complete tutorial
